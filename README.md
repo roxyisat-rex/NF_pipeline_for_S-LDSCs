@@ -19,6 +19,8 @@ This pipeline generates 10 S-LDSC annotations for each cell type. It selects all
 
 This pipeline creates S-LDSC annotations without deciles and only selects for cell-type-specific peaks, determined by a z-score threshold.
 
+## Configurations (`sample_NF.config`)
+This file contains a sample config file for the pipelines. The HPC system here is PBS pro. This should be customized when using the pipeline as the HPC system is likely different, but hopefully this gives you a bit of a start. It is to be used with the (`.pbs`) file when submitting the NF pipelines to run. 
 
 ## Necessities
 
