@@ -5,7 +5,7 @@ This repository contains three different Nextflow (NF) pipelines for performing 
 All three pipelines utilize S-LDSC through a Singularity image. Instructions on how to operate Singularity with Nextflow can be found [here](https://github.com/roxyisat-rex/Nextflow_with_Singularity_on_PBS/tree/master).
 
 ## Pipelines Overview
-- For all three pipelines, a table summarizing the results of the S-LDSC run is created alongside a plot in `.pdf` format for users to quickly review the results.
+- For all three pipelines, a table summarizing the results of the S-LDSC run is created containing key metrics of S-LDSC such as proportion of SNPs, proportion of heritability, Enrichment levels and significant (prior and post corrections). In addition, a plot in `.pdf` format for users to quickly review the results.
 
 ### 1. 0.2% Full Pipeline (`0.2%_Full_pipeline.nf`)
 
