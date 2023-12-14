@@ -1,0 +1,6 @@
+#PBS -l walltime=00:30:00
+#PBS -l select=1:ncpus=1:mem=8gb
+
+module load nextflow
+cd /rds/general/user/xyz16/home
+nextflow -C NF.config run pipeline.nf
