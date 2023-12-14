@@ -6,7 +6,7 @@ All three pipelines utilize S-LDSC through a Singularity image. Instructions on 
 
 ## Pipelines Overview
 - For all three pipelines, a table summarizing the results of the S-LDSC run is created alongside a plot in `.pdf` format for users to quickly review the results.
-- 
+
 ### 1. 0.2% Full Pipeline (`0.2%_Full_pipeline.nf`)
 
 This pipeline creates S-LDSC annotations containing >= 0.2% of SNPs from the baseline model. It selects SNPs overlapping each peak by iterating through the input `.bed` files with the `.bim` files from the Plink files. The selection is based on peaks with the highest levels of cell-type specificity.
